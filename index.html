@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koenigsegg #1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Koenigsegg</h1>
+    <p>Bienvenido a nuetra pagina favor de rellenar los campos</p>
+    <form action="#" method="post">
+        <fieldset>
+            <label for="nombre">Ingresa tu nombre:
+                <input type="text" id="nombre" name="nombre" required>
+            </label>
+            <label for="email">Ingresa tu email
+                <input type="text" id="apellido" name="apellido" required>
+            </label>
+            <label for="edad">Ingresa tu edad
+                <input type="number" name="edad" min="10" max="90">
+            </label>
+            <label for="referencia">¿Que tipo de deportes de carros te gustan mas?
+                <select name="referencia" id="referencia">
+                    <option value="">Seleciona una opcion</option>
+                    <option value="1">Deportivos</option>
+                    <option value="2">Uso Rudo</option>
+                    <option value="3">DriftiNG</option>
+                    <option value="4">Formula 1</option>
+                </select>
+            </label>
+            <legend>¿Que deporte de Carros tegustaria practicar?</legend>
+            <label for="DriftiNG">
+                <input type="radio" name="tipo-cuenta" class="enlinea" checked>DriftiNG
+            </label>
+            <label for="Rutas">
+                <input type="radio" name="tipo-cuenta" class="enlinea" checked>Rutas
+            </label>
+            <label for="Formula 1">
+                <input type="radio" name="tipo-cuenta" class="enlinea" checked>Formula 1
+            </label>
+            <label for="referencia">¿Que es lo qu mas te gusta del deporte?
+                <select name="referencia" id="referencia">
+                    <option value="">Seleciona una opcion</option>
+                    <option value="1">Los carros</option>
+                    <option value="2">Las pistas</option>
+                    <option value="3">Los accidentes</option>
+                    <option value="4">Los pilotos</option>
+                </select>
+            </label>
+        </fieldset>
+    </form>
+</body>
+</html>

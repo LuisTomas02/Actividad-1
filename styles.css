@@ -1,0 +1,25 @@
+body{
+    background-image: url(../img/Koenigsegg.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1,p{
+    text-align: center;
+    margin: 1em auto;
+}
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+fieldset{
+    border: none;
+    padding: 2rem;
+    border-bottom: 3px solid ;
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
